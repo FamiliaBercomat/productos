@@ -1,0 +1,2 @@
+# productos
+Detalle de productos
