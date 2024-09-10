@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 900px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .product-title {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .thumbnail-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .thumbnail {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .product-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .description,
+        .specs {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specs ul {
+            list-style: none;
+            color: #333;
+        }
+
+        .specs ul li {
+            padding: 5px 0;
+        }
+
+        .section-attribute {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (min-width: 768px) {
+            .product-container {
+                flex-direction: row;
+                gap: 20px;
+            }
+            .product-images {
+                flex: 1;
+            }
+            .product-details {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="https://www.familiabercomat.com/on/demandware.static/Sites-FB-Site/-/default/dwa4cfa863/images/logo-small.svg" alt="Logo de Familia Bercomat" class="logo">
+        <h1 class="product-title">Combo de Sanitarios Milena Inodoro, Bidet 3A y Tapa | Codigo: 400172 </h1>
+    </div>
+<div class="product-container">
+    <!-- Sección de Imágenes -->
+    <div class="product-images">
+        <img id="mainImage" src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dwa6be8126/images/medium/400172_0.jpg" alt="Combo de Sanitarios Milena Inodoro, Bidet 3A y Tapa" class="main-image">
+        
+        <div class="thumbnail-container">
+             <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dwa6be8126/images/medium/400172_0.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+            <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw49b4a5ac/images/medium/400172_1.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+            <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dwebf19d82/images/medium/400172_2.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+            <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw11019857/images/medium/400172_3.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+
+        </div>
+    </div>
+        <div class="product-details">
+            <div class="specs">
+
+<div class="container main-details">
+            <div class="description-and-detail-bundle col-md-6">
+
+    <div class="row details container">
+
+        <div class="section-detail-description ">
+            <div class="container-detail-description">
+                <div class="container-detail selected-item">
+                    <h2 class="title-detail" id="specifications">
+                        Especificaciones
+                    </h2>
+                </div>
+                <div class="section-description">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-description text-bundle">
+            
+                <div class="value content"
+                    id="collapsible-description-1">
+                    El combo contiene:
+<br>-Inodoro Corto Ferrum Linea Milena
+<br>Medidas: 38,6x58,8x39,2
+<br>Código de Fabricante: IDCMJ
+<br>-Bidet de 3 Agujeros Ferrum Linea Milena
+<br>Medidas: 37,2x58,4x39,2
+<br>Código de Fabricante: BDF3J
+<br>-Tapa Asiento Ferrum Linea Milena
+<br>Medidas: 45x38,6x3,8
+<br>Código de Fabricante: TDXUS
+<br />
+<p>148414 - 148413 - 148418</p>
+                </div>
+            
+        </div>
+
+        <div class="text-details">
+            <div class="row bundle-section">
+    <div class="col-12">
+        <h2 class="bundle-items-label">El combo incluye</h2>
+    </div>
+</div>
+
+<div class="bundle-items">
+    
+        
+        
+        <div class="container product-detail bundle-item collapsible-xl" data-pid="148414">
+    <div class="d-flex row section-bundle-data col-12">
+        <!-- Product Images Carousel -->
+        <div class="primary-images">
+    
+    <div id="pdpCarousel-148414" class="carousel slide" data-interval="0"
+        data-prev="Previous"
+        data-next="Next">
+        
+            <ol class="carousel-indicators" aria-hidden="true">
+                
+                    <li data-target=" #pdpCarousel-148414" data-slide-to="0"
+                        class='active'>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148414" data-slide-to="1"
+                        class=''>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148414" data-slide-to="2"
+                        class=''>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148414" data-slide-to="3"
+                        class=''>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148414" data-slide-to="4"
+                        class=''>
+                    </li>
+                
+            </ol>
+        
+
+        <div class="carousel-inner" role="listbox">
+            <div class="cucardas">
+                <div class="cucardas-images">
+                    
+                </div>
+            </div>
+            
+                <div class='carousel-item active'>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dwbe77b022/images/medium/148414_0.jpg" class="d-block img-fluid" alt="Bidet Milena 3A Bco,, , large image number 0"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dw25164c1e/images/medium/148414_1.jpg" class="d-block img-fluid" alt="Bidet Milena 3A Bco,, , large image number 1"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dw43771f9e/images/medium/148414_2.jpg" class="d-block img-fluid" alt="Bidet Milena 3A Bco,, , large image number 2"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dwc2f22e25/images/medium/148414_3.jpg" class="d-block img-fluid" alt="Bidet Milena 3A Bco,, , large image number 3"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dwc9961184/images/medium/148414_4.jpg" class="d-block img-fluid" alt="Bidet Milena 3A Bco,, , large image number 4"
+                        itemprop="image" />
+                </div>
+            
+        </div>
+        
+            <a class="carousel-control-prev" href=" #pdpCarousel-148414" role="button" data-slide="prev">
+                <span class="fa icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href=" #pdpCarousel-148414" role="button" data-slide="next">
+                <span class="fa icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        
+    </div>
+</div>
+
+        <div class="bundle-name section-promo-mobile">
+            <div class="row">
+                <div class="col">
+                    <button class="title product-name btn text-left btn-block" aria-expanded="false"
+                        aria-controls="collapsible-attributes-bundle-1">
+                        Bidet Ferrum Milena Con 3 Agujeros Blanco BDF3JB
+                    </button>
+                </div>
+            </div>
+
+            <div class="row d-none">
+                <div class="col">
+                    <div class="product-number-rating clearfix">
+    <!-- Product Number -->
+    <div class="product-number pull-left">
+        SKU
+<span class="product-id">148414</span>
+
+    </div>
+    
+    <div class="product-specifications pull-right pr-3">
+        <button class="link-specifications" href>Ver especificaciones</button>
+    </div>
+
+    <!-- Product Rating no utilizable-->
+    <div class="ratings pull-right">
+        <span class="sr-only">4,1 out of 5 Customer Rating</span>
+        
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star-half-o
+        
+        " aria-hidden="true">
+    </i>
+
+    </div>
+</div>
+
+
+                    <label class="quantity" data-quantity="1.0"/>
+                </div>
+            </div>
+
+            <div class="attributes">
+                
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="attributes attributes-bundle">
+            <div class="value content"
+                id="collapsible-attributes-bundle-1">
+                <!-- Attributes and Quantity -->
+                <div class="row">
+    <div class="col">
+        
+            <div class="main-attributes">
+                
+                    
+                
+            </div>
+        
+    </div>
+</div>
+
+
+                
+                    <div data-attr="cantidad_de_agujeros" class="row swatch">
+                        <div class="col">
+                            
+
+<div class="attribute attribute-color">
+    
+            
+
+            <h3 class="attribute-name">
+                Cantidad de agujeros
+            </h3>
+            <ul>
+                
+                    
+                        <li class="attribute-values">
+                            <div class="section-attribute section-attribute-select">
+                                <span class="label">Cantidad de agujeros</span>
+                                <span class="value">3 Agujeros</span>
+                            </div>
+                        </li>
+                    
+                
+                    
+                
+            </ul>
+    
+</div>
+
+<script>
+var label = document.querySelector('.section-attribute-select .label').innerHTML;
+var value = document.querySelector('.section-attribute-select .value').innerHTML;
+
+var labelSplit = label.split(" ");
+var newLabel = labelSplit.slice(2, labelSplit.length).join(" ");
+
+var valueSplit = value.split(" ");
+var newValue = valueSplit.slice(0, 1).join(" ");
+
+document.querySelector('.section-attribute-select .label').innerHTML = newLabel;
+document.querySelector('.section-attribute-select .value').innerHTML = newValue;
+</script>
+                        </div>
+                    </div>
+                
+
+
+                
+    <div class="col-12 value content mx-auto content-specifications"
+        id="collapsible-attributes-1">
+        
+            
+                <div class="details-specifications">
+                    <h3 class="attribute-name">
+                        Bidets
+                    </h3>
+                    <ul>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Alto (cm)</span>
+                                    
+                                        <span class="value">39.20</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Ancho (cm)</span>
+                                    
+                                        <span class="value">37.20</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Largo (cm)</span>
+                                    
+                                        <span class="value">58.40</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Cantidad de Agujeros</span>
+                                    
+                                        <span class="value">3 Agujeros</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">C&oacute;digo del Fabricante</span>
+                                    
+                                        <span class="value">BDF3J-B</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Color</span>
+                                    
+                                        <span class="value">Blanco</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">L&iacute;nea</span>
+                                    
+                                        <span class="value">Milena</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Marca</span>
+                                    
+                                        <span class="value">Ferrum</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Material</span>
+                                    
+                                        <span class="value">Porcelana Sanitaria</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Modelo</span>
+                                    
+                                        <span class="value">Bidet</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Origen</span>
+                                    
+                                        <span class="value">Argentina</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Terminaci&oacute;n</span>
+                                    
+                                        <span class="value">Brillante</span>
+                                    
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+        
+        
+        <div class="container product-detail bundle-item collapsible-xl" data-pid="148413">
+    <div class="d-flex row section-bundle-data col-12">
+        <!-- Product Images Carousel -->
+        <div class="primary-images">
+    
+    <div id="pdpCarousel-148413" class="carousel slide" data-interval="0"
+        data-prev="Previous"
+        data-next="Next">
+        
+            <ol class="carousel-indicators" aria-hidden="true">
+                
+                    <li data-target=" #pdpCarousel-148413" data-slide-to="0"
+                        class='active'>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148413" data-slide-to="1"
+                        class=''>
+                    </li>
+                
+            </ol>
+        
+
+        <div class="carousel-inner" role="listbox">
+            <div class="cucardas">
+                <div class="cucardas-images">
+                    
+                </div>
+            </div>
+            
+                <div class='carousel-item active'>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dwa801e847/images/medium/148413_0.jpg" class="d-block img-fluid" alt="Inodoro Corto Milena A Bco,, , large image number 0"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dw63fb723d/images/medium/148413_1.jpg" class="d-block img-fluid" alt="Inodoro Corto Milena A Bco,, , large image number 1"
+                        itemprop="image" />
+                </div>
+            
+        </div>
+        
+            <a class="carousel-control-prev" href=" #pdpCarousel-148413" role="button" data-slide="prev">
+                <span class="fa icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href=" #pdpCarousel-148413" role="button" data-slide="next">
+                <span class="fa icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        
+    </div>
+</div>
+
+        <div class="bundle-name section-promo-mobile">
+            <div class="row">
+                <div class="col">
+                    <button class="title product-name btn text-left btn-block" aria-expanded="false"
+                        aria-controls="collapsible-attributes-bundle-2">
+                        Inodoro Corto Ferrum Milena Blanco IDCMJB
+                    </button>
+                </div>
+            </div>
+
+            <div class="row d-none">
+                <div class="col">
+                    <div class="product-number-rating clearfix">
+    <!-- Product Number -->
+    <div class="product-number pull-left">
+        SKU
+<span class="product-id">148413</span>
+
+    </div>
+    
+    <div class="product-specifications pull-right pr-3">
+        <button class="link-specifications" href>Ver especificaciones</button>
+    </div>
+
+    <!-- Product Rating no utilizable-->
+    <div class="ratings pull-right">
+        <span class="sr-only">4 out of 5 Customer Rating</span>
+        
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star-o
+        
+        " aria-hidden="true">
+    </i>
+
+    </div>
+</div>
+
+
+                    <label class="quantity" data-quantity="1.0"/>
+                </div>
+            </div>
+
+            <div class="attributes">
+                
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="attributes attributes-bundle">
+            <div class="value content"
+                id="collapsible-attributes-bundle-2">
+                <!-- Attributes and Quantity -->
+                <div class="row">
+    <div class="col">
+        
+            <div class="main-attributes">
+                
+                    
+                
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+
+                
+    <div class="col-12 value content mx-auto content-specifications"
+        id="collapsible-attributes-2">
+        
+            
+                <div class="details-specifications">
+                    <h3 class="attribute-name">
+                        Inodoros
+                    </h3>
+                    <ul>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Alto (cm)</span>
+                                    
+                                        <span class="value">39.20</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Ancho (cm)</span>
+                                    
+                                        <span class="value">38.60</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Largo (cm)</span>
+                                    
+                                        <span class="value">58.80</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">C&oacute;digo del Fabricante</span>
+                                    
+                                        <span class="value">IDCMJ-B</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Color</span>
+                                    
+                                        <span class="value">Blanco</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">L&iacute;nea</span>
+                                    
+                                        <span class="value">Milena</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Marca</span>
+                                    
+                                        <span class="value">Ferrum</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Material</span>
+                                    
+                                        <span class="value">Porcelana Sanitaria</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Modelo</span>
+                                    
+                                        <span class="value">Inodoro</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Tipo de Instalaci&oacute;n</span>
+                                    
+                                        <span class="value">Corto</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Terminaci&oacute;n</span>
+                                    
+                                        <span class="value">Brillante</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Origen</span>
+                                    
+                                        <span class="value">Argentina</span>
+                                    
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+        
+        
+        <div class="container product-detail bundle-item collapsible-xl" data-pid="148418">
+    <div class="d-flex row section-bundle-data col-12">
+        <!-- Product Images Carousel -->
+        <div class="primary-images">
+    
+    <div id="pdpCarousel-148418" class="carousel slide" data-interval="0"
+        data-prev="Previous"
+        data-next="Next">
+        
+            <ol class="carousel-indicators" aria-hidden="true">
+                
+                    <li data-target=" #pdpCarousel-148418" data-slide-to="0"
+                        class='active'>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148418" data-slide-to="1"
+                        class=''>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148418" data-slide-to="2"
+                        class=''>
+                    </li>
+                
+                    <li data-target=" #pdpCarousel-148418" data-slide-to="3"
+                        class=''>
+                    </li>
+                
+            </ol>
+        
+
+        <div class="carousel-inner" role="listbox">
+            <div class="cucardas">
+                <div class="cucardas-images">
+                    
+                </div>
+            </div>
+            
+                <div class='carousel-item active'>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dwed221746/images/medium/148418_0.jpg" class="d-block img-fluid" alt="Ferrum Asiento Milena Cierre Suav,, , large image number 0"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dw20a4f61e/images/medium/148418_1.jpg" class="d-block img-fluid" alt="Ferrum Asiento Milena Cierre Suav,, , large image number 1"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dw2ddab22a/images/medium/148418_2.jpg" class="d-block img-fluid" alt="Ferrum Asiento Milena Cierre Suav,, , large image number 2"
+                        itemprop="image" />
+                </div>
+            
+                <div class='carousel-item '>
+                    <img src="/on/demandware.static/-/Sites-FBM/default/dwe7b57d90/images/medium/148418_3.jpg" class="d-block img-fluid" alt="Ferrum Asiento Milena Cierre Suav,, , large image number 3"
+                        itemprop="image" />
+                </div>
+            
+        </div>
+        
+            <a class="carousel-control-prev" href=" #pdpCarousel-148418" role="button" data-slide="prev">
+                <span class="fa icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href=" #pdpCarousel-148418" role="button" data-slide="next">
+                <span class="fa icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        
+    </div>
+</div>
+
+        <div class="bundle-name section-promo-mobile">
+            <div class="row">
+                <div class="col">
+                    <button class="title product-name btn text-left btn-block" aria-expanded="false"
+                        aria-controls="collapsible-attributes-bundle-3">
+                        Asiento Cierre Suave Ferrum Milena Blanco Cromo TDXUSB
+                    </button>
+                </div>
+            </div>
+
+            <div class="row d-none">
+                <div class="col">
+                    <div class="product-number-rating clearfix">
+    <!-- Product Number -->
+    <div class="product-number pull-left">
+        SKU
+<span class="product-id">148418</span>
+
+    </div>
+    
+    <div class="product-specifications pull-right pr-3">
+        <button class="link-specifications" href>Ver especificaciones</button>
+    </div>
+
+    <!-- Product Rating no utilizable-->
+    <div class="ratings pull-right">
+        <span class="sr-only">5 out of 5 Customer Rating</span>
+        
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    <i class="fa
+        
+            fa-star
+        
+        " aria-hidden="true">
+    </i>
+
+    </div>
+</div>
+
+
+                    <label class="quantity" data-quantity="1.0"/>
+                </div>
+            </div>
+
+            <div class="attributes">
+                
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="attributes attributes-bundle">
+            <div class="value content"
+                id="collapsible-attributes-bundle-3">
+                <!-- Attributes and Quantity -->
+                <div class="row">
+    <div class="col">
+        
+            <div class="main-attributes">
+                
+                    
+                
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+
+                
+    <div class="col-12 value content mx-auto content-specifications"
+        id="collapsible-attributes-3">
+        
+            
+                <div class="details-specifications">
+                    <h3 class="attribute-name">
+                        Asientos y Tapas
+                    </h3>
+                    <ul>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Alto (cm)</span>
+                                    
+                                        <span class="value">3.80</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Ancho (cm)</span>
+                                    
+                                        <span class="value">38.60</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Largo (cm)</span>
+                                    
+                                        <span class="value">45.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">C&oacute;digo del Fabricante</span>
+                                    
+                                        <span class="value">TDXUS-B</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Color</span>
+                                    
+                                        <span class="value">Blanco</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">L&iacute;nea</span>
+                                    
+                                        <span class="value">Milena</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Marca</span>
+                                    
+                                        <span class="value">Ferrum</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Material</span>
+                                    
+                                        <span class="value">Resina Alta Resistencia (UF)</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Modelo</span>
+                                    
+                                        <span class="value">Para Inodoro</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Origen</span>
+                                    
+                                        <span class="value">Argentina</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Terminaci&oacute;n</span>
+                                    
+                                        <span class="value">Brillante</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Tipo de Cierre</span>
+                                    
+                                        <span class="value">Suave</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Tipo de Herrajes</span>
+                                    
+                                        <span class="value">Metal Cromo</span>
+                                    
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+</div>
+
+
+        </div>
+
+    </div>
+
+
+    
+
+    
+        <hr class="d-sm-none">
+    
+</div>
+
+<script src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/js/detail.js"></script>
+
+            <div class="col-12 col-md-6 container-block">
+                <div class="col-12 div-block mcc-content-zone-product-section-1">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="recommendations">
+            
+
+	
+<!-- =============== This snippet of JavaScript handles fetching the dynamic recommendations from the remote recommendations server
+and then makes a call to render the configured template with the returned recommended products: ================= -->
+
+<script>
+(function(){
+// window.CQuotient is provided on the page by the Analytics code:
+var cq = window.CQuotient;
+var dc = window.DataCloud;
+var isCQ = false;
+var isDC = false;
+if (cq && ('function' == typeof cq.getCQUserId)
+&& ('function' == typeof cq.getCQCookieId)
+&& ('function' == typeof cq.getCQHashedEmail)
+&& ('function' == typeof cq.getCQHashedLogin)) {
+isCQ = true;
+}
+if (dc && ('function' == typeof dc.getDCUserId)) {
+isDC = true;
+}
+if (isCQ || isDC) {
+var recommender = '[[&quot;product-to-product&quot;]]';
+var slotRecommendationType = 'RECOMMENDATION';
+// removing any leading/trailing square brackets and escaped quotes:
+recommender = recommender.replace(/\[|\]|&quot;/g, '');
+var separator = '|||';
+var slotConfigurationUUID = '37c81306601b97a552047d8dff';
+var contextAUID = '';
+var contextSecondaryAUID = '';
+var contextAltAUID = '400172';
+var contextType = 'bundle';
+var anchorsArray = [];
+var contextAUIDs = contextAUID.split(separator);
+var contextSecondaryAUIDs = contextSecondaryAUID.split(separator);
+var contextAltAUIDs = contextAltAUID.split(separator);
+var contextTypes = contextType.split(separator);
+var slotName = 'product-recommendations-m';
+var slotConfigId = 'Einstein Recommendation';
+var slotConfigTemplate = 'slots/recommendation/pdp.isml';
+if (contextAUIDs.length == contextSecondaryAUIDs.length) {
+for (i = 0; i < contextAUIDs.length; i++) {
+anchorsArray.push({
+id: contextAUIDs[i],
+sku: contextSecondaryAUIDs[i],
+type: contextTypes[i],
+alt_id: contextAltAUIDs[i]
+});
+}
+} else {
+anchorsArray = [{id: contextAUID, sku: contextSecondaryAUID, type: contextType, alt_id: contextAltAUID}];
+}
+var urlToCall = '/on/demandware.store/Sites-FB-Site/default/CQRecomm-Start';
+var params = null;
+if (isCQ) {
+params = {
+userId: cq.getCQUserId(),
+cookieId: cq.getCQCookieId(),
+emailId: cq.getCQHashedEmail(),
+loginId: cq.getCQHashedLogin(),
+anchors: anchorsArray,
+slotId: slotName,
+slotConfigId: slotConfigId,
+slotConfigTemplate: slotConfigTemplate,
+ccver: '1.03'
+};
+}
+// console.log("Recommendation Type - " + slotRecommendationType + ", Recommender Selected - " + recommender);
+if (isDC && slotRecommendationType == 'DATA_CLOUD_RECOMMENDATION') {
+// Set DC variables for API call
+dcIndividualId = dc.getDCUserId();
+dcUrl = dc.getDCPersonalizationPath();
+if (dcIndividualId && dcUrl && dcIndividualId != '' && dcUrl != '') {
+// console.log("Fetching CDP Recommendations");
+var productRecs = {};
+productRecs[recommender] = getCDPRecs(dcUrl, dcIndividualId, recommender);
+cb(productRecs);
+}
+} else if (isCQ && slotRecommendationType != 'DATA_CLOUD_RECOMMENDATION') {
+if (cq.getRecs) {
+cq.getRecs(cq.clientId, recommender, params, cb);
+} else {
+cq.widgets = cq.widgets || [];
+cq.widgets.push({
+recommenderName: recommender,
+parameters: params,
+callback: cb
+});
+}
+}
+};
+function cb(parsed) {
+var arr = parsed[recommender].recs;
+if (arr && 0 < arr.length) {
+var filteredProductIds = '';
+for (i = 0; i < arr.length; i++) {
+filteredProductIds = filteredProductIds + 'pid' + i + '=' + encodeURIComponent(arr[i].id) + '&';
+}
+filteredProductIds = filteredProductIds.substring(0, filteredProductIds.length - 1);//to remove the trailing '&'
+var formData = 'auid=' + encodeURIComponent(contextAUID)
++ '&scid=' + slotConfigurationUUID
++ '&' + filteredProductIds;
+var request = new XMLHttpRequest();
+request.open('POST', urlToCall, true);
+request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+request.onreadystatechange = function() {
+if (this.readyState === 4) {
+// Got the product data from DW, showing the products now by changing the inner HTML of the DIV:
+var divId = 'cq_recomm_slot-' + slotConfigurationUUID;
+document.getElementById(divId).innerHTML = this.responseText;
+//find and evaluate scripts in response:
+var scripts = document.getElementById(divId).getElementsByTagName('script');
+if (null != scripts) {
+for (var i=0;i<scripts.length;i++) {//not combining script snippets on purpose
+var srcScript = document.createElement('script');
+srcScript.text = scripts[i].innerHTML;
+srcScript.asynch = scripts[i].asynch;
+srcScript.defer = scripts[i].defer;
+srcScript.type = scripts[i].type;
+srcScript.charset = scripts[i].charset;
+document.head.appendChild( srcScript );
+document.head.removeChild( srcScript );
+}
+}
+}
+};
+request.send(formData);
+request = null;
+}
+};
+})();
+</script>
+<!-- The DIV tag id below is unique on purpose in case there are multiple recommendation slots on the same .isml page: -->
+<div id="cq_recomm_slot-37c81306601b97a552047d8dff"></div>
+<!-- ====================== snippet ends here ======================== -->
+ 
+	
+        </div>
+
+        <div class="recommendations">
+            
+	 
+
+	
+        </div>
+
+        <div class="mcc-content-zone-product-section-2">
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="section-email-home-footer d-flex">
+    <div class="footer-container-email">
+        <div class="section-email-new">
+            <div class="home-email-signup">
+                <div class="container">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-sm-5 email-description">Suscribite a nuestras ofertas
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="hpEmailSignUp"
+                                        placeholder="Ingres&aacute; tu email"
+                                        aria-label="Ingres&aacute; tu email">
+                                    <button type="submit" class="btn btn-primary subscribe-email"
+                                        data-href="/on/demandware.store/Sites-FB-Site/default/EmailSubscribe-Subscribe">¡Quiero
+                                        recibirlas!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="section-social">
+            <div class="social-links-section">
+                
+	 
+
+
+	
+    
+        <style>
+ul.social-links > li > a > img {
+    width: 25px;
+    height: auto;
+    /*filter: brightness(0.8);*/
+}
+
+ul.social-links > li > a > img:hover {
+    scale: 1.1;
+    opacity: 0.8;
+    transition: scale 0.2s ease;
+}
+
+footer .social .social-links {
+    gap: 2px;
+}
+</style>
+
+<ul class="social-links">
+<li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/familiabercomat" target="_blank"><img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwb219e16c/images/homepage/social/svg/instagram.svg" alt="instagram" /></a></li>
+<li><a class="facebook" aria-label="Facebook"  href="https://www.facebook.com/FamiliaBercomat" target="_blank">
+<img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw336a1ee4/images/homepage/social/svg/facebook.svg" alt="facebook" />
+</a></li>
+<li><a class="youtube" aria-label="Youtube" href="https://www.youtube.com/user/GrupoBercomat" target="_blank"><img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw77b3d5e4/images/homepage/social/svg/youtube.svg" alt="youtube" /></a></li>
+<li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/company/familia-bercomat" target="_blank"><img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwc15229fb/images/homepage/social/svg/linkedin.svg" alt="linkedin" /></a></li>
+
+<li><a class="twitter" aria-label="Twitter" href="https://x.com/familiabercomat" target="_blank"><img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw4b500aed/images/homepage/social/svg/twitter.svg" alt="twitter" /></a></li>
+<li><a class="pinterest" aria-label="Pinterest" href="https://ar.pinterest.com/Familiabercomatok " target="_blank"><img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw254d9bda/images/homepage/social/svg/pinterest.svg" alt="pinterest" /></a></li>
+<li><a class="spotify" aria-label="Spotify" href="https://open.spotify.com/show/11sQA5M7rWIpiDCb13ePfC" target="_blank"><img src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw1587b2ab/images/homepage/social/svg/spotify.svg" alt="spotify" /></a></li>
+</ul>
+    
+
+ 
+	
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="footercontent">
+    
+
+
+
+<!-- ChatBot Button -->
+
+    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="95789c2255a4cd7a2e9725b23c" -->
+        <style>
+.boton-whatsapp:hover {
+    filter: brightness(1.1);
+    scale: 1.1;
+    transition: scale 0.3s ease;
+}
+</style>
+
+<a href="https://api.whatsapp.com/send?phone=5491162223726&text=Hola!%20Queria%20saber%20sobre..." target="_blank" class="boton-whatsapp">
+    <img class="chat-wp" src="https://www.familiabercomat.com/on/demandware.static/Sites-FB-Site/-/default/dw775062a8/images/whatsapp.svg" alt="whatsapp" />
+</a>
+    </div> <!-- End content-asset -->
+
+
+
+
+
+    <div class="container">
+        <div class="footer-container row">
+            <div class="footer-item store collapsible-xs help-container">
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="5cf3cd1ac74a2c27d155242a5d" -->
+        <style>
+@media (min-width: 762px) {
+    /* Ajuste primera columna del footer */
+    #footercontent > div:nth-child(2) > div > div.footer-item.col-sm-3.store.collapsible-xs.help-container > div {
+        margin-left: 20%;
+    }
+}
+</style>
+
+<div class="container-links">
+    <button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-account">
+        <a href="https://www.familiabercomat.com/home/" title="Institucional">Institucional</a>
+    </button>
+    <a class="title d-none d-sm-block" href="https://www.familiabercomat.com/home/" title="Presupuestos">Institucional</a>
+</div>
+<ul id="collapsible-account" class="menu-footer content">
+    <li><a href="/trabaja-con-nosotros.html" title="Trabajá con nosotros">Trabajá con nosotros</a></li>
+    <li><a href="/empresa.html" title="Nuestra empresa">Nuestra empresa</a></li>
+    <li><a href="/canales-oficiales.html" title="Canales Oficiales">Canales oficiales</a></li>
+    <li><a href="/grandes-cuentas.html" title="Grandes Cuentas">Grandes cuentas</a></li>
+    <li><a href="https://witcx.com/d/bercpqrs/" rel="noopener noreferrer nofollow" title="Tu opinión construye" target="_blank">Tu opinión construye</a></li>
+    <li><a href="/canal-de-integridad.html" title="Canal de Integridad">Canal de integridad</a></li>
+    <li><a href="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw8d78b7ec/pdf/codigo-de-etica-Oct2023.pdf" title="Código de Ética" target="_blank">Código de ética</a></li>
+</ul><!-- END: footer-account -->
+    </div> <!-- End content-asset -->
+
+
+
+            </div>
+            <div class="footer-item collapsible-xs collapse-mobile-padding">
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="828f387126cb5aaf2719d8c212" -->
+        <div class="container-links"><button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-account"><a href="https://www.familiabercomat.com/home/" title="Necesitas Ayuda">¿Necesitas Ayuda?</a></button><a class="title d-none d-sm-block" href="https://www.familiabercomat.com/home/" title="Necesitas Ayuda">¿Necesitas Ayuda?</a></div>
+<ul id="collapsible-account"class="menu-footer content">
+    <li><a href="/asesoramiento-proyecto.html" title="Presupuestos">Presupuestos</a></li>
+    <li><a href="/preguntas-frecuentes.html" title="Preguntas Frecuentes">Preguntas frecuentes</a></li>
+    <li><a href="/terminos-y-condiciones.html" title="Términos y condiciones">Términos y condiciones</a></li>
+    <li><a href="https://www.familiabercomat.com/boton-arrepentimiento/" title="Botón de arrepentimiento">Botón de arrepentimiento</a></li>
+</ul><!-- END: footer-account -->
+    </div> <!-- End content-asset -->
+
+
+
+            </div>
+            <div class="footer-item collapsible-xs collapse-mobile-padding">
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="3624d2524be1fa3d52da7d26f8" -->
+        <div class="container-links"><button class="title btn text-left btn-block d-sm-none" aria-expanded="false"
+    aria-controls="collapsible-account"><a href="/ofertas-bercomat.html" title="Ofertas y Eventos">Ofertas y
+        Eventos</a></button><a class="title d-none d-sm-block" href="/ofertas-bercomat.html"
+    title="Ofertas y Eventos">Ofertas y Eventos</a></div>
+<ul id="collapsible-account" class="menu-footer content">
+<!-- <li><a href="/semana-de-la-chapa.html" title="Semana de la Chapa" style="color: #ff8400 !important;font-weight: 500;">Semana de la chapa</a></li> -->
+<li><a href="/aberturas" title="Mes de las Aberturas">Mes de las aberturas</a></li>
+<li><a href="/outlet.html" title="Outlet">Outlet</a></li>
+<li><a href="/ambientes-que-inspiran.html" title="Ambientes que inspiran">Ambientes que inspiran</a></li>
+<li><a href="/productos-a-pedido.html" title="Productos a pedido">Productos a pedido</a></li>
+<li><a href="/banos" title="Especial Baños">Especial baños</a></li>
+<li><a href="/cocinas-y-lavaderos" title="Especial Cocinas">Especial cocinas</a></li>
+<li><a href="/cybermonday.html" title="Cyber Monday 2024">Cyber Monday 2024</a></li>
+<li><a href="/hot-sale.html" title="Hot Sale 2024" >Hot Sale 2024</a></li>
+<!-- <li><a href="/bercofest.html" title="Berco Fest" style="color: #d00 !important;font-weight: 500;">Berco Fest</a></li> -->
+<!-- <li><a href="/combos" title="Ofertas en Combos">Ofertas en combos</a></li> -->
+</ul><!-- END: footer-account -->
+    </div> <!-- End content-asset -->
+
+
+
+            </div>
+            <div class="footer-item collapsible-xs collapse-mobile-padding support-container">
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="fe96d62a5bbd70aa4f5299c7c3" -->
+        <div class="container-links">
+    <button class="title btn text-left btn-block d-sm-none" aria-expanded="false"
+        aria-controls="collapsible-customer-service">
+        <a href="https://www.familiabercomat.com/on/demandware.store/Sites-FB-Site/default/prestamo-de-la-casa" title="Te puede interesar">Te puede interesar</a>
+    </button>
+    <a class="title d-none d-sm-block" href="https://www.familiabercomat.com/on/demandware.store/Sites-FB-Site/default/prestamo-de-la-casa" title="Te puede interesar">Te puede
+        interesar</a>
+</div>
+
+<ul id="collapsible-customer-service" class="menu-footer content">
+    <!--<li><a href="/prestamo-de-la-casa.html" title="Préstamo de la Casa">Préstamo de la Casa</a></li>-->
+    <div class="li-container">
+          <li><a class="text-link" href="/prestamo-de-la-casa.html" title="Préstamo de la Casa">Préstamo de la Casa</a></li>
+           <!-- <img class="icon" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw73e7f666/images/homepage/fb-home/icon_prestamo.svg" alt="icon"/> -->
+     </div>
+     <li><a href="/nuevos-lanzamientos.html" title="Nuevos lanzamientos">Nuevos lanzamientos</a></li>
+     <div class="li-container">
+          <li><a href="/acopio.html" title="Plan de Acopio">Plan de Acopio</a></li>
+          <!-- <span class="cucarda-label">¡NUEVO!</span> -->
+     </div>
+    <!--<li><a href="/acopio.html" title="Plan de Acopio">Plan de acopio</a></li>-->
+    <li><a href="https://www.familiabercomat.com/factura-a/" title="Factura A">Factura A</a></li>
+    <li><a href="/envios.html">Envíos</a></li>
+    <li><a href="/sucursales.html">Sucursales</a></li>
+    <li><a href="/medios-de-pago.html">Medios de pago</a></li>
+    <li><a href="/sorteo.html">Sorteos</a></li>
+    <li><a href="/politica-de-devolucion.html">Políticas de devolución</a></li>
+</ul>
+<!-- END: footer_support -->
+    </div> <!-- End content-asset -->
+
+
+
+            </div>
+            <div class="footer-item collapsible-xs container-item-footer">
+                <div class="footer-item col-sm-12 collapsible-xs collapse-mobile-padding">
+                    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="6480dbd24d006d09aa0fba3540" -->
+        <div class="container-links">
+    <button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-about">
+        <a href="https://www.familiabercomat.com/atencion-al-cliente" title="Atención al cliente">Atención al
+            cliente</a>
+    </button>
+    <a class="title d-none d-sm-block" href="https://www.familiabercomat.com/atencion-al-cliente"
+        title="Atención al cliente">Atención al cliente</a>
+</div>
+
+<ul id="collapsible-about" class="menu-footer content">
+    <div class="li-container">
+        <img class="icon" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw228b9bae/images/homepage/social/svg/phone.svg" alt="icon" />
+        <li><a class="text-link" href="https://www.familiabercomat.com/atencion-al-cliente.html"
+                title="Atención al cliente">0800-555-BERCO</a></li>
+    </div>
+    <div class="li-container">
+        <img class="icon" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwb21306b1/images/homepage/social/svg/whatsapp.svg" alt="icon" />
+        <li><a class="text-link" href="https://api.whatsapp.com/send?phone=5491162223726&text=Hola!%20Queria%20saber"
+                title="Phone">+54 9 11 6222-3726</a></li>
+    </div>
+    <h5 class="ventas">Ventas</h5>
+    <div class="li-container">
+        <img class="icon" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwb21306b1/images/homepage/social/svg/whatsapp.svg" alt="icon" />
+        <li><a class="text-link" href="https://api.whatsapp.com/send?phone=5491162223726&text=Hola!%20Queria%20saber"
+                title="Phone">+549 11 3400-9713</a></li>
+    </div>
+    <!--<li><a href="https://www.familiabercomat.com/terms.html" title="Go to Terms">Terms</a></li>-->
+    <!--<li><a href="https://www.familiabercomat.com/jobs-landing.html" title="Go to Jobs">Jobs</a></li>-->
+</ul><!-- END: footer_about -->
+    </div> <!-- End content-asset -->
+
+
+
+                </div>
+                
+
+                
+                <div class="col-lg-12 col-sm-5 push-sm-7 push-lg-8 great">
+                    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="8573298592a6fdd5754bd96483" -->
+        <!-- <a href="https://www.cybermonday.com.ar/familia-bercomat" target="_blank">
+    <img class="cyber" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwceb4e301/images/homepage/fb-home/CybermondaySelloTiendaOficial.png" alt="Cyber Monday Tienda Oficial" />
+</a> -->
+
+<a href="https://certificaciones.greatplacetowork.com.ar/familia-bercomat" target="_blank">
+    <img class="great" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwb25bfaa1/images/homepage/fb-home/great.svg" alt="Great Place To Work" />
+</a>
+<a href="http://qr.afip.gob.ar/?qr=v2CwbP4RLexIEct2ji8_sg,," target="_blank">
+    <img class="fiscal" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwc4626294/images/homepage/fb-home/fiscal.svg" alt="AFIP" />
+</a>
+<a href="https://cace.org.ar/socio/familia-bercomat/" target="_blank">
+    <img class="confianza" src="https://www.familiabercomat.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw445adca1/images/homepage/fb-home/confianza.svg" alt="CACE" />
+</a>
+    </div> <!-- End content-asset -->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hidden-xs-down" />
+    <div class="container">
+        <div class="row container-copy">
+            <div class="col-lg-8 col-sm-7 pull-sm-5 pull-lg-4 copyright-notice">
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="8b9d43bf6ff0ce5e16c3aef8b5" -->
+        <div class="copyright">© Copyright 2024 Familia Bercomat. Todos los derechos reservados.</div>
+    </div> <!-- End content-asset -->
+
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<div class="error-messaging"></div>
+<div class="modal-background"></div>
+
+
+
+<!--[if lt IE 10]>
+<script>//common/scripts.isml</script>
+<script defer type="text/javascript" src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/js/main.js"></script>
+<script defer type="text/javascript" src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/js/modal.js"></script>
+
+    <script defer type="text/javascript" src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/js/productDetail.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/js/slidev2.js"
+        
+        >
+    </script>
+
+<![endif]-->
+
+<!-- Google Analytics - cached -->
+    <script type="text/javascript">
+        try {
+            dataLayer.push({ ecommerce: null });
+        } catch (error) {
+            console.error(e);
+        }
+        function ga4EventLoader() {
+            try {
+                $(document).ajaxSuccess(function(event, request, settings, data) {
+                    if (settings.dataTypes.indexOf('json') > -1) {
+                        if (data && '__ga4Events' in data && Array.isArray(data.__ga4Events)) {
+                            data.__ga4Events.forEach((ga4event) => {
+                                dataLayer.push({ ecommerce: null });
+                                dataLayer.push(ga4event);
+                            });
+                        }
+                    }
+                });
+                document.removeEventListener('DOMContentLoaded', ga4EventLoader);
+            } catch (e) { console.error(e); }
+        }
+        setTimeout(() => {
+            console.log('ga4 timeout function', document.readyState)
+            if (document.readyState === 'complete') {
+                ga4EventLoader();
+            } else {
+                document.addEventListener('DOMContentLoaded', ga4EventLoader);
+            }
+        }, 3000);
+        setTimeout(() => {
+            console.log('ga4 timeout function', document.readyState)
+            if (document.readyState === 'complete') {
+                ga4EventLoader();
+            } else {
+                document.addEventListener('DOMContentLoaded', ga4EventLoader);
+            }
+        }, 5000);
+    </script>
+    <!-- End Google Analytics - cached --><!-- Marketing Cloud Analytics - cached -->
+<script type="text/javascript">
+try {
+	_etmc.push(['setOrgId', "534006934" ]);
+} catch (e) { console.error(e); }
+function mccEventLoader() {
+	try {
+		$( document ).ajaxSuccess(function(event, request, settings, data) {
+			if (settings.dataTypes.indexOf('json') > -1) {
+				if (data && '__mccEvents' in data && Array.isArray(data.__mccEvents)) {
+					data.__mccEvents.forEach(function mccEvent(mccEvent){_etmc.push(mccEvent);});
+				}
+			}
+		});
+		document.removeEventListener('DOMContentLoaded', mccEventLoader);
+	} catch (e) { console.error(e); }
+};
+if (document.readyState === 'complete') {
+	mccEventLoader();
+} else {
+	document.addEventListener('DOMContentLoaded', mccEventLoader);
+}
+</script>
+<!-- End Marketing Cloud Analytics - cached -->
+<!-- Google Analytics Connection - noncached -->
+<script type="text/javascript">
+try {
+	dataLayer.push({"event":"view_item","ecommerce":{"currency":"ARS","value":1674749.98,"items":[{"item_name":"Combo de Sanitarios Milena Inodoro, Bidet 3A y Tapa","item_id":"400172","price":1674749.98,"item_brand":null,"item_category":"Baños","item_category2":"Combos","item_category3":"Juegos de Sanitarios para Baños","item_category4":null,"quantity":1}]}});
+} catch (e) { console.error(e); }
+</script>
+<!-- End Google Analytics Connection - noncached -->
+<!-- Marketing Cloud Analytics - noncached -->
+<script type="text/javascript">
+try {
+	_etmc.push(["trackPageView",{"item":"400172"}]);
+} catch (e) { console.error(e); }
+</script>
+<!-- End Marketing Cloud Analytics - noncached -->
+
+<span class="api-true  tracking-consent"
+    data-caOnline="false"
+    data-url="/on/demandware.store/Sites-FB-Site/default/ConsentTracking-GetContent?cid=tracking_hint"
+    data-reject="/on/demandware.store/Sites-FB-Site/default/ConsentTracking-SetConsent?consent=false"
+    data-accept="/on/demandware.store/Sites-FB-Site/default/ConsentTracking-SetConsent?consent=true"
+    data-acceptText="Yes"
+    data-rejectText="No"
+    data-heading="Tracking Consent"
+    data-tokenName="csrf_token"
+    data-token="R0GFKx42lsot5wso0EQRYc9wH4COdmPoBBsJn8jsjB91A9A-C_uLzkd3SUsNR71FJxpeMKpnMv2QIwhO9btzYSPykq1qz0W735FfAWqa2u5lFlYAq-gGQAtbyM4tze1fhODk2kf5rs_ZELJ9BzC1zw0LjpN_4upIk1BJW7OowUd3OfTv_f8="
+    ></span>
+
+<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://www.familiabercomat.com/on/demandware.store/Sites-FB-Site/default/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/internal/jscript/dwanalytics-22.2.js" async="async" onload="trackPage()"></script>
+<!-- Demandware Active Data (body_end-active_data.js) -->
+<script src="/on/demandware.static/Sites-FB-Site/-/default/v1725913362363/internal/jscript/dwac-21.7.js" type="text/javascript" async="async"></script><!-- CQuotient Activity Tracking (body_end-cquotient.js) -->
+<script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+</body>
+</html>
+
+<script>
+    setTimeout(() => {
+        Konduto.sendEvent('page', 'product');
+    }, 500);
+</script
+    <script>
+        function changeImage(element) {
+            document.getElementById("mainImage").src = element.src;
+        }
+    </script>
+</body>
+</html>
