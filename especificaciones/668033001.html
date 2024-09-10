@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 900px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .product-title {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .thumbnail-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .thumbnail {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .product-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .description,
+        .specs {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specs ul {
+            list-style: none;
+            color: #333;
+        }
+
+        .specs ul li {
+            padding: 5px 0;
+        }
+
+        .section-attribute {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (min-width: 768px) {
+            .product-container {
+                flex-direction: row;
+                gap: 20px;
+            }
+            .product-images {
+                flex: 1;
+            }
+            .product-details {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="https://www.familiabercomat.com/on/demandware.static/Sites-FB-Site/-/default/dwa4cfa863/images/logo-small.svg" alt="Logo de Familia Bercomat" class="logo">
+        <h1 class="product-title">Hidromasaje Zeus2 Base 8 Jets Homesistem D 170x48 | Codigo: 668033001 </h1>
+    </div>
+<div class="product-container">
+    <!-- Sección de Imágenes -->
+    <div class="product-images">
+        <img id="mainImage" src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw6e80cc6a/images/large/668033001_0.jpeg" alt="Hidromasaje Zeus2 Base 8 Jets Homesistem D 170x48" class="main-image">
+        
+        <div class="thumbnail-container">
+             <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw6e80cc6a/images/large/668033001_0.jpeg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+            <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw6eea89c3/images/large/668033001_1.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+            <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dwda56a38d/images/large/668033001_2.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+
+        </div>
+    </div>
+        <div class="product-details">
+            <div class="specs">
+
+<div class="container main-details">
+            
+            <div class="description-and-detail col-12 col-md-6 container containers">
+    
+
+    
+
+    <div class="row details container">
+        <div class="section-detail-description ">
+            <div class="container-detail-description">
+                <div class="container-detail selected-item">
+                    <h2 class="title-detail" id="specifications">
+                        Especificaciones
+                    </h2>
+                </div>
+                <div class="section-description">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-details">
+            
+    <div class="col-12 value content mx-auto content-specifications"
+        id="collapsible-attributes-1">
+        
+            
+                <div class="details-specifications">
+                    <h3 class="attribute-name">
+                        Hidromasajes
+                    </h3>
+                    <ul>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Alto (cm)</span>
+                                    
+                                        <span class="value">48.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Ancho (cm)</span>
+                                    
+                                        <span class="value">170.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Largo (cm)</span>
+                                    
+                                        <span class="value">170.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Cantidad de Jets</span>
+                                    
+                                        <span class="value">8 Jets</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">C&oacute;digo del Fabricante</span>
+                                    
+                                        <span class="value">11202</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Color</span>
+                                    
+                                        <span class="value">Blanco</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Detalle de Equipamiento</span>
+                                    
+                                        <span class="value">Encendido Neum&aacute;tico</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Equipamiento</span>
+                                    
+                                        <span class="value">Base</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">L&iacute;nea</span>
+                                    
+                                        <span class="value">Zeus2</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Marca</span>
+                                    
+                                        <span class="value">Tecnofusi&oacute;n</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Material</span>
+                                    
+                                        <span class="value">Acr&iacute;lico</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Modelo</span>
+                                    
+                                        <span class="value">Ba&ntilde;era Hidromasaje</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Origen</span>
+                                    
+                                        <span class="value">Argentina</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Terminaci&oacute;n</span>
+                                    
+                                        <span class="value">Brillante</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Ubicaci&oacute;n de Motor</span>
+                                    
+                                        <span class="value">Derecha</span>
+                                    
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        
+    </div>
+
+        </div>
+        
+    <script>
+        function changeImage(element) {
+            document.getElementById("mainImage").src = element.src;
+        }
+    </script>
+</body>
+</html>
