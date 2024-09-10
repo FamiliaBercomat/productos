@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 900px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .product-title {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .thumbnail-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .thumbnail {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .product-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .description,
+        .specs {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .specs ul {
+            list-style: none;
+            color: #333;
+        }
+
+        .specs ul li {
+            padding: 5px 0;
+        }
+
+        .section-attribute {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (min-width: 768px) {
+            .product-container {
+                flex-direction: row;
+                gap: 20px;
+            }
+            .product-images {
+                flex: 1;
+            }
+            .product-details {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="https://www.familiabercomat.com/on/demandware.static/Sites-FB-Site/-/default/dwa4cfa863/images/logo-small.svg" alt="Logo de Familia Bercomat" class="logo">
+        <h1 class="product-title">Vanitory De Pie Caju Sin Mesada Schneider Nature 50 V50NACAJ | Codigo: 168126 </h1>
+    </div>
+<div class="product-container">
+    <!-- Sección de Imágenes -->
+    <div class="product-images">
+        <img id="mainImage" src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw359359ea/images/large/168126_0.jpg" alt="Vanitory De Pie Caju Sin Mesada Schneider Nature 50 V50NACAJ" class="main-image">
+        
+        <div class="thumbnail-container">
+             <img src="https://www.familiabercomat.com/on/demandware.static/-/Sites-FBM/default/dw359359ea/images/large/168126_0.jpg" alt="Imagen 1" class="thumbnail" onclick="changeImage(this)">
+
+        </div>
+    </div>
+        <div class="product-details">
+            <div class="specs">
+
+<div class="container main-details">
+            
+            <div class="description-and-detail col-12 col-md-6 container containers">
+    
+
+    
+
+    <div class="row details container">
+        <div class="section-detail-description ">
+            <div class="container-detail-description">
+                <div class="container-detail selected-item">
+                    <h2 class="title-detail" id="specifications">
+                        Especificaciones
+                    </h2>
+                </div>
+                <div class="section-description">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-details">
+            
+    <div class="col-12 value content mx-auto content-specifications"
+        id="collapsible-attributes-1">
+        
+            
+                <div class="details-specifications">
+                    <h3 class="attribute-name">
+                        Vanitorys
+                    </h3>
+                    <ul>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Alto (cm)</span>
+                                    
+                                        <span class="value">84.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Ancho (cm)</span>
+                                    
+                                        <span class="value">50.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Profundidad (cm)</span>
+                                    
+                                        <span class="value">36.00</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Armado</span>
+                                    
+                                        <span class="value">Si</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Cajones</span>
+                                    
+                                        <span class="value">1 Caj&oacute;n</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Color</span>
+                                    
+                                        <span class="value">Caj&uacute;</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Incluye Mesada</span>
+                                    
+                                        <span class="value">No</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">L&iacute;nea</span>
+                                    
+                                        <span class="value">Nature</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Marca</span>
+                                    
+                                        <span class="value">Schneider</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Material</span>
+                                    
+                                        <span class="value">MDF</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Puertas</span>
+                                    
+                                        <span class="value">2 Puertas Ciegas</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Repisa</span>
+                                    
+                                        <span class="value">Sin Repisas</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Sistema de Apertura</span>
+                                    
+                                        <span class="value">Corredera Telesc&oacute;pica</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">C&oacute;digo del Fabricante</span>
+                                    
+                                        <span class="value">V50NA</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Origen</span>
+                                    
+                                        <span class="value">Argentina</span>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li class="attribute-values">
+                                <div class="section-attribute">
+                                    <span class="label">Modelo</span>
+                                    
+                                        <span class="value">De Pie</span>
+                                    
+                                </div>
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        
+    </div>
+
+        </div>
+        
+    <script>
+        function changeImage(element) {
+            document.getElementById("mainImage").src = element.src;
+        }
+    </script>
+</body>
+</html>
